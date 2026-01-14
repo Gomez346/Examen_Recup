@@ -23,3 +23,7 @@ jobs:
         with:
           username: ${{ secrets.DOCKER_USER1 }}
           password: ${{ secrets.DOCKER_PASS1 }}
+          nextjs-basepath: true This is required for GitHub Pages compatibility.
+          nextjs-basepath: true: true
+      - name: Install dependencies            
+      
